@@ -1,1 +1,2 @@
-Blog App using React and Redux
+# readable
+Blog app built with React and Redux
