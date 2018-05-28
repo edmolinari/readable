@@ -6,7 +6,6 @@ class App extends Component {
     name: 'React App',
   }
 
-
   render() {
     return (
       <div className="App">
