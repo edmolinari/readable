@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom'
 import { shallow } from 'enzyme';
-import App from '../components/App';
+import App from '../App';
 
-
-it('renders without crashing', () => {
+it('renders App in react router context within BrowserRouter', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, div);
   ReactDOM.unmountComponentAtNode(div);
 });
 
