@@ -16,13 +16,12 @@ import { withStyles, Grid } from 'material-ui';
 
 import {
   StatsCard,
-  TasksCard,
   RegularCard,
   Table,
   ItemGrid
 } from 'components';
 
-import dashboardStyle from 'assets/jss/material-dashboard-react/dashboardStyle';
+import dashboardStyle from 'assets/jss/material-dashboard-react/dashboardStyle.jsx';
 
 class Dashboard extends Component {
   state = {
@@ -84,7 +83,6 @@ class Dashboard extends Component {
         </Grid>
         <Grid container>
           <ItemGrid xs={12} sm={12} md={6}>
-            <TasksCard />
           </ItemGrid>
           <ItemGrid xs={12} sm={12} md={6}>
             <RegularCard
