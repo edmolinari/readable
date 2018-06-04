@@ -42,7 +42,7 @@ class Dashboard extends Component {
             <StatsCard
               icon={ContentCopy}
               iconColor="orange"
-              title="Used Space"
+              title="Catogories"
               description="49/50"
               small="GB"
               statIcon={Warning}
@@ -54,7 +54,7 @@ class Dashboard extends Component {
             <StatsCard
               icon={Store}
               iconColor="green"
-              title="Revenue"
+              title="Posts"
               description="$34,245"
               statIcon={DateRange}
               statText="Last 24 Hours"
@@ -64,7 +64,7 @@ class Dashboard extends Component {
             <StatsCard
               icon={InfoOutline}
               iconColor="red"
-              title="Fixed Issues"
+              title="Comments"
               description="75"
               statIcon={LocalOffer}
               statText="Tracked from Github"
@@ -74,7 +74,7 @@ class Dashboard extends Component {
             <StatsCard
               icon={Accessibility}
               iconColor="blue"
-              title="Followers"
+              title="Votes"
               description="+245"
               statIcon={Update}
               statText="Just Updated"
@@ -83,21 +83,19 @@ class Dashboard extends Component {
         </Grid>
         <Grid container>
           <ItemGrid xs={12} sm={12} md={6}>
-          </ItemGrid>
-          <ItemGrid xs={12} sm={12} md={6}>
             <RegularCard
               headerColor="orange"
-              cardTitle="Employees Stats"
-              cardSubtitle="New employees on 15th September, 2016"
+              cardTitle="Posts Catgories"
+              cardSubtitle="Select a category to see related posts"
               content={
                 <Table
                   tableHeaderColor="warning"
-                  tableHead={["ID", "Name", "Salary", "Country"]}
+                  tableHead={[ "Name", "Comments", "Votes"]}
                   tableData={[
-                    ["1", "Dakota Rice", "$36,738", "Niger"],
-                    ["2", "Minerva Hooper", "$23,789", "Curaçao"],
-                    ["3", "Sage Rodriguez", "$56,142", "Netherlands"],
-                    ["4", "Philip Chaney", "$38,735", "Korea, South"]
+                    ["Dakota Rice", "123", "2"],
+                    ["Minerva Hooper", "1212", "0"],
+                    ["Sage Rodriguez", "0", "9"],
+                    ["Philip Chaney", "1", "1"]
                   ]}
                 />
               }
