@@ -42,7 +42,7 @@ class Dashboard extends Component {
             <StatsCard
               icon={ContentCopy}
               iconColor="orange"
-              title="Catogories"
+              title="Categories"
               description="49/50"
               small="GB"
               statIcon={Warning}
@@ -92,10 +92,10 @@ class Dashboard extends Component {
                   tableHeaderColor="warning"
                   tableHead={[ "Name", "Comments", "Votes"]}
                   tableData={[
-                    ["Dakota Rice", "123", "2"],
-                    ["Minerva Hooper", "1212", "0"],
-                    ["Sage Rodriguez", "0", "9"],
-                    ["Philip Chaney", "1", "1"]
+                    ["Tech", "123", "2"],
+                    ["Fiction", "1212", "0"],
+                    ["Industry", "0", "9"],
+                    ["Politics", "1", "1"]
                   ]}
                 />
               }
