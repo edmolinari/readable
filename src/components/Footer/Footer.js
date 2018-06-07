@@ -31,9 +31,7 @@ function Footer({ ...props }) {
         <p className={classes.right}>
           <span>
             &copy; {1900 + new Date().getYear()}{" "}
-            <a href="http://github.com/edmolinari/" className={classes.a}>
-              Ed Molinari's
-            </a> Redux + Material UI project
+            Redux + Material UI project
           </span>
         </p>
       </div>

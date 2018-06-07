@@ -50,7 +50,7 @@ class App extends React.Component {
       <div className={classes.wrapper}>
         <Sidebar
           routes={dashboardRoutes}
-          logoText={"Readbale Redux"}
+          logoText={"Readable Redux"}
           logo={logo}
           image={image}
           handleDrawerToggle={this.handleDrawerToggle}
