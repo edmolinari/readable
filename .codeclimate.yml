@@ -17,7 +17,7 @@ checks:
       threshold: 20
   method-lines:
     config:
-      threshold: 70
+      threshold: 100
   nested-control-flow:
     config:
       threshold: 4
@@ -28,9 +28,9 @@ checks:
     config:
       languages:
         javascript:
-          mass_threshold: 60
+          mass_threshold: 70
   identical-code:
     config:
       languages:
         javascript:
-          mass_threshold: 60
+          mass_threshold: 70
