@@ -28,9 +28,9 @@ checks:
     config:
       languages:
         javascript:
-          mass_threshold: 70
+          mass_threshold: 85
   identical-code:
     config:
       languages:
         javascript:
-          mass_threshold: 70
+          mass_threshold: 85
